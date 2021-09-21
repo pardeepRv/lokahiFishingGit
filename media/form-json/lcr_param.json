@@ -1,0 +1,65 @@
+
+{
+    "Type Of Fish":
+    {
+        "Billfish":
+        {
+            "Blue Marlin": ["< 100", "< 125", "< 150", "< 200", "< 300", "< 400", "500+"],
+            "Black Marlin": ["< 100", "< 125", "< 150", "< 200", "< 300", "< 400", "500+"],
+            "Striped Marlin": ["< 20", "< 40", "< 60", "< 80", "100+"],
+            "Sailfish": ["< 20", "< 40", "< 60", "< 80", "100+"],
+            "Spearfish": ["< 20", "< 30", "< 40", "50"],
+            "Swordfish": ["< 100", "< 125", "< 150", "< 200", "< 300", "< 400", "500+"]
+        },
+        "Tuna":
+        {
+            "Ahi": ["100", "125", "150", "175", "200+"],
+            "Shibi": ["3", "5", "10", "15", "25", "50", "75"],
+            "Aku": ["3", "5", "10", "15", "20+"],
+            "Kawakawa": ["3", "5", "10", "15", "20+"]
+        },
+        "Mahi":
+        {
+            "Mahi": ["10", "15", "20", "30", "40", "50+"]
+        },
+        "Ono":
+        {
+            "Ono": ["10", "15", "20", "30", "40", "50+"]
+        },
+        "Others": {
+            "Others": []
+        }
+    },
+    "Signs": {
+        "Blind": [],
+        "Birds": ["Matori/Shearwater", "Booby (white)", "Booby(brown)", "Iwa / frigatebird ", "Bullshit / fairy tern", "Noddy tern", "Tropicbird(red tail)", "Tropicbird(white tail)"]
+    },
+    "Method":
+    {
+        "Bait":
+        {
+            "Live": ["Aku / Shibi", "Opelu", "Akule"],
+            "Dead": ["Aku / Shibi", "Opelu", "Akule"]
+        },
+        "Lure":
+        {
+            "Type": ["Bullet", "Cut face", "Scoop/swimmer", "Plunger", "Straight runner", "Jumper", "Chrome jet", "Soft head", "Other - "],
+            "Size": ["3\"", "5\"", "7\"", "9\"", "12\"", "14\""],
+            "Color": ["Purple/silver", "Blue salmon", "Black salmon", "Blue/silver", "Ice blue", "Flower", "Purple/black", "Root beer", "B52", "Gay bob", "Mavis", "Frog", "Firecracker", "Other Color - "],
+            "Lure Maker": ["Futa", "Iland", "Marlin magic", "Mold craft", "Morris", "Polu kai", "Tsutomu", "Yamada", "Other Maker - "]
+        }
+    },
+    "Weather": {
+        "Wind Speed (knots)": ["< 5", "< 10", "< 15", "< 20", "< 25+"],
+        "Wind Direction": ["N", "NE", "E", "SE", "S", "SW", "W", "NW"],
+        "Variable winds": [],
+        "Skies": ["Sunny", "Cloudy", "Rainy"],
+        "Tide": ["Rising", "Falling", "Peak", "Bottom"],
+        "Moon": ["New", "1st Quarter", "Full", "Last Quarter"],
+        "Time Hooked": []
+    },
+    "Position": ["Short corner", "Long corner", ",Short center", "Short rigger", "Long rigger", "Long center", "Aku pole"],
+    "Teaser Used": ["Bird on position 1-6 from above", "Witch doctor", "Fender teaser", "Flying fish daisy chain", "Dredge"],
+    "Boat Direction": ["Upswell", "Quarter up swell", "Trough", "Quarter down swell", "Down swell", "Turning"]
+    
+}

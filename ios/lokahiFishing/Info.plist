@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>lokahiFishing</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>tg</string>
+		<string>capcut</string>
+		<string>lark</string>
+		<string>viber</string>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>kakao61f447fe9723aa9c0b67a52eeb998e77</string>
+		<string>kakaokompassauth</string>
+		<string>storykompassauth</string>
+		<string>kakaolink</string>
+		<string>kakaotalk-5.9.7</string>
+		<string>storylink</string>
+		<string>line</string>
+		<string>instagram</string>
+		<string>instagram-stories</string>
+		<string>lineauth</string>
+		<string>line3rdp.com.zhiliaoapp.musically</string>
+		<string>whatsapp</string>
+		<string>fb-messenger-platform-20150714</string>
+		<string>fb-messenger-platform-20150305</string>
+		<string>fb-messenger-platform-20150218</string>
+		<string>fb-messenger-platform-20150128</string>
+		<string>zalo</string>
+		<string>snapchat</string>
+		<string>twitter</string>
+		<string>twitterauth</string>
+		<string>bandapp</string>
+		<string>kakaostory</string>
+		<string>navercafe</string>
+		<string>naverblog</string>
+		<string>vkauthorize</string>
+		<string>vk</string>
+		<string>vk-share</string>
+		<string>fb</string>
+		<string>fb-messenger-share-api</string>
+		<string>fb-messenger</string>
+		<string>itms-beta</string>
+		<string>heloiossso</string>
+		<string>comgooglemaps</string>
+		<string>resso</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>give us permission to use apple music</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>give us permission to use Bluetooth</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>give us permission to use Bluetooth </string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>give us permission to view your Calendar</string>
+	<key>NSContactsUsageDescription</key>
+	<string>give us permission to view contacts</string>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs to get your location...</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>give us permission to use Microphone</string>
+	<key>NSMotionUsageDescription</key>
+	<string>give us permission to use Motion Usage</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string> give us permission to view images</string>
+	<key>NSSiriUsageDescription</key>
+	<string>give us permission to use Siri recongition</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>give us permission to use speech recongition</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fonts/AntDesign.ttf</string>
+		<string>Fonts/Entypo.ttf</string>
+		<string>Fonts/EvilIcons.ttf</string>
+		<string>Fonts/Feather.ttf</string>
+		<string>Fonts/FontAwesome.ttf</string>
+		<string>Fonts/FontAwesome5_Brands.ttf</string>
+		<string>Fonts/FontAwesome5_Regular.ttf</string>
+		<string>Fonts/FontAwesome5_Solid.ttf</string>
+		<string>Fonts/Fontisto.ttf</string>
+		<string>Fonts/Foundation.ttf</string>
+		<string>Fonts/Ionicons.ttf</string>
+		<string>Fonts/MaterialCommunityIcons.ttf</string>
+		<string>Fonts/MaterialIcons.ttf</string>
+		<string>Fonts/Octicons.ttf</string>
+		<string>Fonts/SimpleLineIcons.ttf</string>
+		<string>Fonts/Zocial.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

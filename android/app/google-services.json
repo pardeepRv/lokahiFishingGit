@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "400685716409",
+    "project_id": "lokahirn",
+    "storage_bucket": "lokahirn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400685716409:android:73e814062db161a6715c68",
+        "android_client_info": {
+          "package_name": "com.lokahifishing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400685716409-oul93fhcscgogn2tf41juf02mbma1jlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsZFy0L7v3rc3t5sfTmE-J9mDU-7tQWzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400685716409-oul93fhcscgogn2tf41juf02mbma1jlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
