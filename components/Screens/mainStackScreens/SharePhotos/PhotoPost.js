@@ -29,7 +29,7 @@ const PhotoPost = props => {
 	const [recipient, setRecipient] = useState('')
 	const [result, setResult] = useState('')
 
-	// console.log('props', props.id, 'liked_list', liked_list)
+	console.log('props',props, props.id, 'liked_list', liked_list)
 
 	const displayName = () => {
 		if (props?.user?.User_Name) {
