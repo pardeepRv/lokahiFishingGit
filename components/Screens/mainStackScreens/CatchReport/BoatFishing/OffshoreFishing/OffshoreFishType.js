@@ -25,7 +25,7 @@ const OffshoreFishType = ({ navigation }) => {
 	return (
 		<SafeAreaView style={{ height: windowHeight, backgroundColor: '#fff' }}>
 			{photoIsUploading ? <BlurView style={styles.blurView} blurType='light' blurAmount={10} reducedTransparencyFallbackColor='white' /> : null}
-			<View
+			{/* <View
 				style={{
 					borderTopWidth: 1,
 					borderBottomWidth: 1,
@@ -38,7 +38,7 @@ const OffshoreFishType = ({ navigation }) => {
 				}}
 			>
 				<Text>Info below is required & will be viewable by public</Text>
-			</View>
+			</View> */}
 			<FishCarousel fishData={fishData} />
 			<LCRRequired />
 		</SafeAreaView>

@@ -4,7 +4,6 @@ import firestore from '@react-native-firebase/firestore'
 import Carousel from 'react-native-snap-carousel'
 const windowWidth = Dimensions.get('window').width
 const windowHeight = Dimensions.get('window').height
-import ChevronRight from 'react-native-vector-icons/Entypo'
 import { Button } from 'react-native-paper'
 import Image from 'react-native-auto-scale-image'
 const DataFeeds = ({ navigation }) => {

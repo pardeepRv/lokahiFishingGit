@@ -13,36 +13,36 @@ const FishCarousel = ({ fishData }) => {
 
 	console.log('fishType', fishType)
 
-	const fish = fishData[carousel.currentIndex]?.subtext
-	useEffect(() => {
-		setFishType(fishData[carousel.currentIndex]?.subtext)
-		if (fish === 'Multiple') {
-			setFishType('Multiple: ' + fishInput)
-		} else if (fish === 'Other') {
-			setFishType('Other: ' + fishInput)
-		}
-	})
+	// const fish = fishData[carousel.currentIndex]?.subtext
+	// useEffect(() => {
+	// 	setFishType(fishData[carousel.currentIndex]?.subtext)
+	// 	if (fish === 'Multiple') {
+	// 		setFishType('Multiple: ' + fishInput)
+	// 	} else if (fish === 'Other') {
+	// 		setFishType('Other: ' + fishInput)
+	// 	}
+	// })
 
 	return (
 		<View style={{ marginVertical: 10, alignItems: 'center' }}>
 			<Carousel
-				style={{ alignContent: 'center', borderWidth: 1, borderColor: 'blue' }}
+				style={{ alignContent: 'flex-end', borderWidth: 2, borderColor: 'blue' , backgroundColor:'#000' }}
 				ref={c => {
 					setCarousel(c)
 				}}
 				data={fishData}
 				renderItem={data => renderContent(data)}
-				sliderWidth={windowWidth}
-				itemWidth={windowWidth * 0.65}
-				autoplay={false}
+				sliderWidth={300}
+				itemWidth={300}
+				autoplay={true}
 				loop={true}
 				onSnapToItem={index => {
 					setFishType(fishData[index].subtext)
 					setFishInput('')
 				}}
 			/>
-			{fish === 'Multiple' ? (
-				<View style={{ zIndex: 1, paddingHorizontal: 20, width: '100%' }}>
+			{/* {fish === 'Multiple' ? (
+				<View style={{ zIndex: 1, paddingHorizontal: 20, width: '100%' , }}>
 					<TextInput
 						style={{
 							borderWidth: 1,
@@ -63,7 +63,7 @@ const FishCarousel = ({ fishData }) => {
 				</View>
 			) : null}
 			{fish === 'Other' ? (
-				<View style={{ zIndex: 1, paddingHorizontal: 20, width: '100%' }}>
+				<View style={{ zIndex: 1, paddingHorizontal: 20, width: '100%',  }}>
 					<TextInput
 						style={{
 							borderWidth: 1,
@@ -82,7 +82,7 @@ const FishCarousel = ({ fishData }) => {
 						value={fishInput}
 					/>
 				</View>
-			) : null}
+			) : null} */}
 		</View>
 	)
 }
